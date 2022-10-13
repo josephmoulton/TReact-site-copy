@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* UNIVERSAL CSS */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", system-ui;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+.row {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+body {
+  padding: 32px;
+}
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:active {
+  transform: translateY(1px);
+}
+
+.text--purple {
+  color: #6415ff;
+}
+/* NAV BAR */
+.logo {
+  width: 40px;
+  margin: 0 12px 0 0;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__logo--container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 4px;
+}
+
+.nav__links {
+  display: flex;
+  align-items: center;
+}
+
+.nav__link {
+  font-size: 14px;
+  font-weight: 600;
+  color: #243e63;
+  padding: 0 0 4px;
+}
+.nav__link--normal {
+  margin: 0 24px;
+}
+
+.nav__link--normal:hover,
+.nav__link--styled:hover {
+  text-decoration: underline;
+}
+
+.nav__link--styled {
+  margin: 0 24px 0 48px;
+}
+
+.nav__link--primary {
+  padding: 12px 32px;
+  border: none;
+  background-color: #6415ff;
+  color: #f7fafc;
+  margin-top: 0.5rem;
+  border-radius: 9999px;
+  transition: background-color 300ms ease;
+}
+
+.nav__link--primary:hover {
+  text-decoration: none;
+  background-color: #5a14e7;
+}
+
+.nav__link--bold {
+  text-decoration: none;
+  padding: 0 0 4px;
+  margin-right: 24px;
+  font-size: 24px;
+  font-weight: 900;
+}
+
+/* LANDING */
+
+.landing__container {
+  padding: 76px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.landing__info {
+  width: 40%;
+}
+
+.landing__info--image {
+  width: 60%;
+}
+.landing__img--container{
+    display: flex;
+    justify-content: end;
+}
+.landing__img {
+  width: 90%;
+}
+
+.landing__header {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.landing__text {
+  margin: 32px 0;
+  font-size: 16px;
+  text-align: left;
+}
+
+.landing__info--input {
+  display: flex;
+}
+
+.landing__info--img {
+  width: 90%;
+}
+
+.landing__customers--container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+.landing__customers--para{
+    font-size: 12px;
+    color: #A0Aec0;
+}
+.landing__customers--img{
+    width: 100%;
+    margin: 16px 0 0 ;
+    opacity: 60%;
+}

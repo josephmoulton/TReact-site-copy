@@ -333,29 +333,50 @@ nav {
 
 /* VALUES */
 
-.values__para{
+.values__para {
   margin-top: 32px;
 }
 
-.values__box{
+.values__box {
   margin: 32px 32px 0 0;
 }
 
-.value__title{
+.value__title {
   display: flex;
   align-items: center;
   margin-bottom: 16px;
 }
 
-.values__title--words{
+.values__title--words {
   margin-left: 12px;
-  
 }
 
-.values__info{
+.values__info {
   display: flex;
 }
 
-.values__btn{
+.values__btn {
   margin-top: 48px;
+}
+
+.value__img--red {
+  display: flex;
+  color: rgb(155 44 44);
+  background-color: rgb(254 178 178);
+  width: 36px;
+  height: 36px;
+  border-radius: 9999px;
+  justify-content: center;
+  align-items: center;
+}
+
+.value__img--green {
+  display: flex;
+  color: rgb(39 103 73);
+  background-color: rgb(154 230 180);
+  width: 36px;
+  height: 36px;
+  border-radius: 9999px;
+  justify-content: center;
+  align-items: center;
 }

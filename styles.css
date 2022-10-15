@@ -330,3 +330,32 @@ nav {
   font-size: 14px;
   text-align: left;
 }
+
+/* VALUES */
+
+.values__para{
+  margin-top: 32px;
+}
+
+.values__box{
+  margin: 32px 32px 0 0;
+}
+
+.value__title{
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.values__title--words{
+  margin-left: 12px;
+  
+}
+
+.values__info{
+  display: flex;
+}
+
+.values__btn{
+  margin-top: 48px;
+}

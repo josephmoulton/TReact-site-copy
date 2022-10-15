@@ -380,3 +380,172 @@ nav {
   justify-content: center;
   align-items: center;
 }
+
+/* PRICING */
+
+.pricing__container {
+  padding: 96px 0;
+}
+
+.pricing__header--container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pricing__sub-heading {
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding-bottom: 16px;
+}
+.plan__title {
+  text-align: center;
+}
+.plan__container {
+  width: 100%;
+  padding-top: 64px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.pricing__para {
+  width: 100%;
+  margin-top: 16px;
+  max-width: 36rem;
+  text-align: center;
+}
+
+.plan {
+  width: 286px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 14px;
+  overflow: hidden;
+  position: relative;
+}
+
+.plan__header,
+.plan__features,
+.plan__action {
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(226, 232, 240);
+  text-align: center;
+  width: 100%;
+}
+
+.plan__header {
+  display: flex;
+  flex-direction: column;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-transform: uppercase;
+  line-height: 1.625;
+
+  padding: 32px 0;
+}
+.plan__name {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.plan__price {
+  margin: 4px 0;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.plan__duration {
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  --tw-text-opacity: 1;
+  color: rgb(160 174 192);
+}
+
+.plan__features {
+  display: flex;
+  flex-direction: column;
+  padding: 32px;
+}
+
+.plan__feature--main {
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: 0.025em;
+}
+.plan__feature {
+  margin-top: 20px;
+  color: #7c8ba1;
+}
+.plan__action {
+  padding: 32px;
+}
+
+.plan__btn {
+  padding: 16px 32px;
+  font-size: 14px;
+}
+
+.plan__btn--red {
+  background: linear-gradient(
+    115deg,
+    rgb(245, 101, 101) 0%,
+    rgb(254, 178, 178) 100%
+  );
+}
+
+.plan__btn--green {
+  background: linear-gradient(
+    115deg,
+    rgb(56, 178, 172) 0%,
+    rgb(129, 230, 217) 100%
+  );
+}
+
+.plan__btn--white {
+  background-color: rgb(247 250 252);
+  color: rgb(100 21 255);
+}
+
+.white {
+  color: white;
+}
+
+.plan__blue {
+  background-image: linear-gradient(
+    135deg,
+    rgb(76, 81, 191) 0%,
+    rgb(102, 126, 234) 100%
+  );
+}
+
+.plan__styling {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  height: 0.5rem;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.plan__styling--green {
+  background: linear-gradient(
+    115deg,
+    rgb(56, 178, 172) 0%,
+    rgb(129, 230, 217) 100%
+  );
+}
+
+.plan__styling--red {
+  background: linear-gradient(
+    115deg,
+    rgb(245, 101, 101) 0%,
+    rgb(254, 178, 178) 100%
+  );
+}
